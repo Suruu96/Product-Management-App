@@ -1,0 +1,31 @@
+.BodyHome {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .add-product-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-product-form label {
+    margin-bottom: 5px;
+  }
+  
+  .add-product-form input,
+  .add-product-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .add-product-form button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  

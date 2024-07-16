@@ -1,0 +1,52 @@
+.BodyHome {
+  margin: 0px;
+  padding: 0px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  background-size: 100%;
+  background-color: #cfdc9f;
+}
+
+.Wtitles {
+  font-size: 52px;
+  padding-top: 5px;
+  padding-left: 5px;
+  color: #181717;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr)); /* Adjust minmax value */
+  gap: 40px;
+  padding: 40px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 2px; /* Adjust padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-title {
+  font-size: 16px; /* Adjust font size */
+  margin: 10px 0;
+}
+
+.product-price {
+  color: #888;
+  font-size: 14px; /* Adjust font size */
+}
+
+.product-category {
+  font-size: 12px; /* Adjust font size */
+  color: #555;
+}

@@ -1,0 +1,20 @@
+.BodyError {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .BodyError h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .BodyError a {
+    font-size: 1.2em;
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .BodyError a:hover {
+    text-decoration: underline;
+  }
+  
